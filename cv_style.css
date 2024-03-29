@@ -1,0 +1,179 @@
+*
+{
+margin: 0;
+padding: 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+}
+
+body{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background-color: white ;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.container .left{
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+.profile{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.profile .imag{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  overflow: hidden;
+}
+.profile .imag img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile h2{
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  /*text-align: center;*/
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profile h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.container .right{
+  position: relative;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+}
+.contact{
+  padding-top: 40px;
+}
+.title{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contact ul{
+  position: relative; 
+}
+.contact ul li{
+  position:relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+  color: white;
+}
+.contact ul li .icon{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.contact ul li span{
+  color: white;
+  font-weight: 300;
+}
+.contact.education li{
+  margin-bottom: 15px;
+}
+.contact.education h5{
+  color:#03a9f4;
+  font-weight: 500;
+}
+.contact.education h4:nth-child(2){
+  color: white;
+  font-weight: 500;
+}
+.contact.education h4{
+  color: white;
+  font-weight: 300;
+}
+.profile{
+  margin-bottom: 50px;
+}
+.profile:last-child{
+  margin-bottom: 0;
+}
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 23px;
+}
+p{
+  color: #333;
+}
+.profile .box{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.profile .box .year{
+  min-width: 150px;
+}
+.profile .box .year h5{
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
+}
+.profile .box .text h4{
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
+}
+.skills .box{
+  position:relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.skills .box h4{
+  text-transform: uppercase;
+  color: #848c99;
+  font-weight: 500;
+}
+.interest ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.interest ul li{
+  list-style: none;
+  color: #333;
+  font-weight: 500;
+  margin: 10px 15px;
+}
+.interest ul li .fa{
+  color: #03a9f4;
+  font-size: 18px;
+  width: 25px;
+}
