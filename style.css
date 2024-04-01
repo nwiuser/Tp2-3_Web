@@ -1,0 +1,53 @@
+header{ 
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+}
+
+label{
+    font-size: 30px;
+    color: white;
+}
+.bon{
+    text-align: center;
+}
+#in{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(0, 82, 175);
+    border: solid;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+}
+body{
+    text-align: center;
+    margin: 40px;
+    background-color: rgb(0, 11, 71);
+}
+#marg{
+    margin: 20px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#button{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 5px;
+    background-color: rgb(0, 82, 175);
+    border: solid;
+    border-color: white;
+    color: white;
+}
+#h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+}
+#h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+}

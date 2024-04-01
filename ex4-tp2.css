@@ -1,0 +1,127 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(0, 0, 114);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 150px;
+    font-size: 50px;
+}
+nav{
+    background-color: rgb(43, 0, 83);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    height: 150px;
+    font-size: 50px;
+}
+footer{
+    background-color: rgb(1, 65, 17);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    height: 150px;
+    font-size: 50px;
+}
+.h1{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   justify-content: space-around;
+   margin-right: 0;
+   font-size: 50px;
+}
+#sec1{
+    background-color: rgb(63, 2, 2);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    width: 400px;
+    height: 150px;
+    flex-grow: 1;
+}
+#sec2{
+    background-color: rgb(88, 60, 0);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    width: 400px;
+    height: 150px;
+    flex-grow: 1;
+}
+#sec3{
+    background-color: rgb(0, 44, 70);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    width: 400px;
+    height: 150px;
+    flex-grow: 1;
+}
+#sec4{
+    background-color: rgb(84, 85, 2);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    width: 400px;
+    height: 150px;
+}
+.h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 50px;
+}
+#sec5{
+    background-color: rgb(122, 196, 61);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    width: 500px;
+    height: 150px;
+}
+#sec6{
+    background-color: rgb(5, 86, 88);
+    border: solid 2px;
+    color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2px;
+    width: 500px;
+    height: 150px;
+}
+
+@media (max-width: 800px) {
+    .h1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .h2{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
