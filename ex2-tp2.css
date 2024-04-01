@@ -1,0 +1,55 @@
+/*question 1*/
+p a {
+    background-color: beige;
+}
+
+/*question 2*/
+.enonce div.encadre img {
+    color: black;
+}
+
+/*question 3*/
+img[width="300"] {
+    font-size: large;
+}
+
+/*question 4*/
+article.remarque time[datetime] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*question 5*/
+div.exemple > p {
+    display: block;
+}
+
+/*question 6*/
+p#important img.encadre {
+    font-weight: 200;
+}
+
+/*question 7*/
+div > img:first-child {
+    max-width: 200px;
+}
+
+/*question 8*/
+*:nth-child(odd) > img {
+    background-color: blue;
+}
+
+/*question 9*/
+article.exercice > p:first-of-type a[href$=".jpg"] {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*question 10*/
+div.reponse + div.remarque {
+    float: left;
+}
+
+/*question 11*/
+section article > p:nth-of-type(2) {
+    float: left;
+}
